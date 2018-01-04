@@ -1,0 +1,31 @@
+#item {
+	border: 0.5px solid gray;
+	box-shadow: 1px 1px 1px;
+	width: 90%;
+	border-collapse: collapse;
+	margin: 4vh 5%;
+}
+
+#item td {
+	vertical-align: top;
+	padding:  2vh 2vw;
+}
+
+#item .title{
+	font-weight: bold;
+	font-size: 1.1em;
+}
+
+#item b {
+	font-size: 0.85em;
+}
+
+.success {
+	color: green;
+	font-weight: bold;
+}
+
+.failed {
+	color: red;
+	font-weight: bold;
+}

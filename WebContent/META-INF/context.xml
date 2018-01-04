@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context path="/EShoppers">
+ 	<Resource auth="Container" driverClassName="com.mysql.jdbc.Driver" logAbandoned="true" maxActive="1000" maxIdle="30" maxWait="10000" name="jdbc/eshoppers_db" password="rootroot" removeAbandoned="true" removeAbandonedTimeout="60" type="javax.sql.DataSource" url="jdbc:mysql://mydb.cqph6opmxi84.us-east-2.rds.amazonaws.com/eshoppers_db" username="root"/>
+</Context>

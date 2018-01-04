@@ -1,0 +1,78 @@
+#checkout {
+	text-align: center;
+}
+
+input:DISABLED {
+	cursor: no-drop;
+}
+
+#temp {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+#temp td {
+	vertical-align: top;
+	padding: 2vh 2vw;
+}
+
+#checkout {
+	border: 1px solid black;
+	padding: 4vh 2vw;
+	display: inline-block;
+	margin-right: 2vw;
+}
+
+#checkout div {
+	margin: 0.75vh auto;
+}
+
+#checkout div span {
+	font-weight: bold;
+}
+
+#items {
+	padding-left: 2vw;
+	color: red;
+}
+
+#items .item:FIRST-CHILD {
+	margin: auto auto;
+}
+
+#items #title {
+	color: black;
+	font-weight: bolder;
+	font-size: 2em;
+}
+
+#items .item {
+	color: black;
+	border: 0.5px solid gray;
+	box-shadow: 1px 1px 1px;
+	margin: 2vh auto;
+	max-width: 100vw;
+}
+
+#items .item #title {
+	font-weight: bold;
+	font-size: 1.1em;
+}
+
+#items .item img {
+	width: 10vw;
+	height: 20vh;
+}
+
+#items .item button {
+	padding: 0.75vh 0.75vw;
+}
+
+button {
+	padding: 1vh 1vw;
+	margin: 0.75vh auto;
+}
+
+form {
+	margin: -1.65vh auto auto auto;
+}

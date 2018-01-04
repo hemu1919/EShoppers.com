@@ -1,0 +1,76 @@
+body {
+	background-color: #f2f2f2;
+	background-attachment: fixed;
+}
+
+#pageHeader {
+	margin-bottom: 4vh;
+}
+
+#content {
+	border-collapse: collapse;
+	width: 95%;
+	margin-left: 4%;
+}
+
+#content td {
+	vertical-align: top;
+}
+
+#items {
+	margin-top: -1vh;
+}
+
+#items .item {
+	background-color: white;
+	float: left;
+	padding: 1vh 1.25vw;
+	border: 0.5px solid black;
+	box-shadow: 1px 1px 1px;
+	min-width: 10vw;
+	margin-left: 0.75vw;
+	margin-right: 0.75vw;
+	margin-top: 1vh;
+	margin-bottom: 2vh;
+	text-align: center;
+	cursor: pointer;
+}
+
+#items .item img {
+	width: 15vw;
+	height: 30vh;
+	margin: auto;
+	margin-bottom: 0.25vh;
+}
+
+#items .item .title {
+	font-weight: bold;
+	font-size: 1.1em;
+	margin: auto;
+	color: #595959;
+}
+
+#items .item .title a {
+	text-decoration: none;
+	color: #595959;
+}
+
+#items .item .title a:HOVER {
+	color: black;
+}
+
+#filters {
+	background-color: white;
+	border: 1px solid black;
+	padding: 2vh 2vw;
+}
+
+#filters label {
+	font-weight: bold;
+	font-size: 0.85em;
+}
+
+#filters input[type=submit] {
+	margin: 1vh auto auto auto;
+	padding: 1vh 1vw;
+}
